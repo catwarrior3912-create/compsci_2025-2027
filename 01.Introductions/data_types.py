@@ -16,10 +16,10 @@ print(type(decimal))
 print(type(word))
 print(type(is_sunny))
 
-# Change the values to the type shown in the comment
-age = "15"      # Change to int
+# Change the values to the type shown in the comment?
+age = 15      # Change to int
 score = 10      # Change to str
-rain = "False"  # Change to bool
+rain = False  # Change to bool
 height = "1.75" # Change to float
 print(type(age))
 print(type(score))
