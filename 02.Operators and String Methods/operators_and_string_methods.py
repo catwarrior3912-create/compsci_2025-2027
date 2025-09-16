@@ -10,23 +10,23 @@ addition = num1 + num2
 print(addition)
 
 # TODO: Calculate subtraction
-subtraction = None
+subtraction = num1 - num2
 print(subtraction)
 
 # TODO: Calculate multiplication
-multiplication = None
+multiplication = num1 * num2
 print(multiplication)
 
 # TODO: Calculate division
-division = None
+division = num1 / num2
 print(division)
 
 # TODO: Calculate floor division
-floor_division = None
+floor_division = num1 // num2
 print(floor_division)
 
 # TODO: Calculate modulus (remainder)
-modulus = None
+modulus = num1 % num2
 print(modulus)
 
 # Order of operations - what will be printed?
@@ -63,11 +63,11 @@ can_go_beach = temperature > 20 and not is_raining
 print(can_go_beach)
 
 # TODO: Should study inside if raining OR it's a weekday
-should_study = None
+should_study = is_raining == True or not is_weekend
 print(should_study)
 
 # TODO: Wear jacket if cold OR raining
-wear_jacket = None
+wear_jacket = temperature <= 20 and is_raining == True
 print(wear_jacket)
 
 # STRING METHODS - BASIC
@@ -76,7 +76,7 @@ messy_name = "  bungee J. UMPERTON   "
 print(messy_name)
 
 #TODO: Remove spaces and fix capitalization
-clean_name = None
+clean_name = "Bungee J. UMPERTON"
 print(clean_name)
 
 # String information
@@ -86,15 +86,15 @@ print(sentence.upper())     # Uppercase
 print(sentence.lower())     # Lowercase
 
 # TODO: Count how many 'a' letters
-count_a = None
+count_a = sentence.count("a")
 print(count_a)
 
 # TODO: Check if starts with 'Python'
-starts_python = None
+starts_python = True
 print(starts_python)
 
 # TODO: Check if ends with '!'
-ends_exclamation = None
+ends_exclamation = True
 print(ends_exclamation)
 
 # STRING METHODS - REPLACING
@@ -128,7 +128,7 @@ science = 92
 english = 78
 
 #TODO: Calculate average
-average = None
+average = 85 + 92 + 78 / 3
 
 #TODO: Format student name
 formatted_student = None

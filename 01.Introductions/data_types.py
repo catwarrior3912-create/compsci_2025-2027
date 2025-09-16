@@ -3,9 +3,14 @@
 
 # For each variable below, write a comment with what kind of thing it is (int, float, str, or bool)
 number = 7
+# Integer
 decimal = 3.5
+# Float
 word = "hello"
+# String
 is_sunny = True
+# Boolean
+
 print(type(number))
 print(type(decimal))
 print(type(word))
